@@ -7,6 +7,7 @@ a. Edit file /etc/profile dan tampilkan pesan sebagai berikut:
 
 echo "Profile dari /etc/profile"
 
+![Gambar Tugas 1A](gambar%20tugas%201%20a.png)
 
 b. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu:
 
@@ -15,11 +16,14 @@ b. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu:
 /home/mahasiswa/.profile
 /home/mahasiswa/.bashrc
 
+
 Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap file tersebut, cantumkan instruksi echo, misalnya pada /home/mahasiswa/.bash_profile:
 
 echo "Profile dari .bash_profile"
 
 Lakukan hal yang sama untuk file lainnya, sesuaikan tampilan dengan nama file yang bersangkutan.
+
+![Gambar Tugas 1B](gambar%20tugas%201B.png)
 
 c. Jalankan instruksi substitute user, kemudian keluar dengan perintah exit sebagai berikut:
 
@@ -33,6 +37,14 @@ $ exit
 
 Jelaskan perbedaan kedua utilitas tersebut.
 
+jawab
+su mahasiswa hanya mengganti user tanpa sepenuhnya menggunakan environment/login environment user tersebut. Beberapa environment variable dan konfigurasi shell user sebelumnya masih dapat terbawa.
+Sedangkan su - mahasiswa melakukan login sebagai user mahasiswa sehingga environment, home directory, dan profile user tersebut dimuat seperti login baru.jadi kesimpulanya u mahasiswa
+    → pindah user tanpa login penuh
+
+su - mahasiswa
+    → pindah user dengan login penuh
+
 
 2. Prompt String (PS)
 
@@ -40,6 +52,8 @@ a. Edit file .bash_profile, ganti prompt PS1 dengan '>'. Instruksi export diperl
 
 PS1='> '
 export PS1
+
+![Gambar Tugas 2A](gambar%20tugas%202a.png)
 
 b. Eksperimen hasil PS1:
 
@@ -50,6 +64,8 @@ Mon Sep 23 > PS1="\t > "
 Saya=mahasiswa > PS1="\w > "
 ~ > PS1=\h >"
 
+![Gambar Tugas 2B](Tugas%202%20B.png)
+
 
 3. Logout
 
@@ -58,6 +74,8 @@ Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum ekseku
 Echo "Terima kasih atas sesi yang diberikan"
 Sleep 5
 clear
+
+![Gambar Tugas 3A](Tugas%203%20A.png)
 
 
 4. Bash script
@@ -86,6 +104,8 @@ $ ./p1.sh ; ./p3.sh ; ./p2.sh
 $ ./p1.sh &
 
 $ ./p1.sh & ./p2.sh & ./p3.sh &
+
+![Gambar Tugas 4A](Tugas%204A.png)
 
 
 5. Jobs
@@ -120,6 +140,7 @@ $ ps x
 
 $ kill [Nomor PID]
 
+![Gambar Tugas 5](tugas%205.png)
 
 6. History
 
@@ -144,3 +165,5 @@ $ !150
 e. Ulangi instruksi dengan prefix "ls"
 
 $ !ls
+
+![Gambar Tugas 6](tugas%206.png)
