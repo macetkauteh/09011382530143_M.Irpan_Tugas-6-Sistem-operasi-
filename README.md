@@ -64,7 +64,7 @@ Mon Sep 23 > PS1="\t > "
 Saya=mahasiswa > PS1="\w > "
 ~ > PS1=\h >"
 
-![Gambar Tugas 2B](Tugas%202%20B.png)
+![Gambar Tugas 2B](Tugas%20tugas2%20B.png)
 
 
 3. Logout
