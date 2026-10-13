@@ -75,7 +75,7 @@ Echo "Terima kasih atas sesi yang diberikan"
 Sleep 5
 clear
 
-![Gambar Tugas 3A](Tugas%203%20A.png)
+![Gambar Tugas 3A](Tugas%20tugas%203A.png)
 
 
 4. Bash script
