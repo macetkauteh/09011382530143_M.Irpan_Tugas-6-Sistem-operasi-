@@ -7,6 +7,7 @@ a. Edit file /etc/profile dan tampilkan pesan sebagai berikut:
 
 echo "Profile dari /etc/profile"
 
+
 b. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu:
 
 /home/stD02001/.bash_profile
